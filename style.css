@@ -1,0 +1,194 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: border-box;
+    
+}
+
+
+.Navbar{
+    display: flex;
+    justify-content: space-evenly;
+    
+    background-color: black;
+    height: 60px;
+    width: 100%;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+p{
+    color: white;
+}
+i{
+    color: white;
+}
+.middle{
+    display: flex;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    
+    height: 50px;
+    width: 113px;
+}
+.Deliver{
+    height: 60px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+
+}
+.del-icon {
+    /* height: 40px; */
+    margin-top: 25px;
+    padding-right: 5px;
+    padding-left: 5px;
+
+
+}
+
+/* .del-text p{
+    margin-top: 10px;
+    padding-right: 5px;
+} */
+.del-text {
+    margin-top:15px ;
+    padding-left: 5px;
+
+    
+}
+
+.del-text .up{
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.805);
+}
+.del-text .down{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+input{
+    height: 40px;
+    width: 900px;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-left: 5px;
+    border: none;
+    outline: none;
+}
+.Search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 40px;
+    width: 40px;
+    background-color: #febd69;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+    margin-top: 10px;
+    
+
+
+}
+.Search-icon i{
+    color: black;
+}
+
+.hello{
+    /* display: flex; */
+    width: 115px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+    
+
+
+}
+
+.hello .up{
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.84);
+   
+}
+.hello .down{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    
+}
+.hello > *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:  10px;
+}
+
+.Returns p{
+    margin-top: 10px;
+}
+.Returns{
+    width: 76px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.Cart{
+    width: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+.icon-cart i{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.bg img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+
+
+
+
